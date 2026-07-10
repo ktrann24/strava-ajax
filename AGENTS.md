@@ -6,13 +6,13 @@
 - Generated: `dist/` build output, `workers.json` CLI config.
 
 ## Worker & Capability API (SDK)
-- `@project-ajax/sdk` provides `Worker`, schema helpers, and builders; `@project-ajax/cli` powers `npx workers ...`.
+- `@notionhq/workers` provides `Worker`, schema helpers, and builders; the Notion Workers CLI powers `npx workers ...`.
 - Capability keys are unique strings used by the CLI (e.g., `npx workers exec tasksSync`).
 
 ```ts
-import { Worker } from "@project-ajax/sdk";
-import * as Builder from "@project-ajax/sdk/builder";
-import * as Schema from "@project-ajax/sdk/schema";
+import { Worker } from "@notionhq/workers";
+import * as Builder from "@notionhq/workers/builder";
+import * as Schema from "@notionhq/workers/schema";
 
 const worker = new Worker();
 export default worker;

@@ -1,6 +1,6 @@
-import { Worker } from "@project-ajax/sdk";
-import * as Builder from "@project-ajax/sdk/builder";
-import * as Schema from "@project-ajax/sdk/schema";
+import { Worker } from "@notionhq/workers";
+import * as Builder from "@notionhq/workers/builder";
+import * as Schema from "@notionhq/workers/schema";
 
 const worker = new Worker();
 export default worker;

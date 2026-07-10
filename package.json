@@ -1,5 +1,5 @@
 {
-	"name": "@project-ajax/template",
+	"name": "strava-notion-sync",
 	"version": "0.0.0",
 	"private": true,
 	"scripts": {
